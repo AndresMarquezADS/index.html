@@ -1,0 +1,17 @@
+[33mcommit 6fe7a7e80ed908eeedb30ab458c5042ca008ef2a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: AndresMarquezADS <andresmarquez1006@gmail.com>
+Date:   Thu Jul 24 14:22:29 2025 -0500
+
+    Se agrega encabezado en index.html y se incluyen imágenes
+
+[1mdiff --git a/Imagenes/Super.png b/Imagenes/Super.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..39c9f39[m
+Binary files /dev/null and b/Imagenes/Super.png differ
+[1mdiff --git a/Imagenes/foto.png b/Imagenes/foto.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2088c20[m
+Binary files /dev/null and b/Imagenes/foto.png differ
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m

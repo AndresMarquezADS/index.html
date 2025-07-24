@@ -181,3 +181,53 @@ form input[type="reset"] {
                 <td>3166191471</td>
             </tr>
 
+  </table>
+
+    </section>
+    <br>
+    <hr>
+
+    <div class="container">
+        <h2>Información de contácto</h2>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Ingresa tus datos personales</legend>
+
+
+                <br>
+                <label for="nombre_usuario">Nombre:</label>
+                <input type="text" id="nombre_usuario" required placeholder="Tu nombre completo" pattern="[A-Za-z\s]+">
+                <br>
+                <br>
+
+                <label for="email">Correo Electronico</label>
+                <input type="email" id="email" name="user_email" required placeholder="tu.correo@ejemplo.com">
+                <small>Tu correo será usado para contáctarte</small>
+                <br>
+                <br>
+
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+57 3** *** ****" required
+                    pattern="[0-9+ ]{10,15}">
+                <small>Tu teléfono será usado para contáctarte</small>
+                <br>
+                <br>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows=4
+                    placeholder="Escribe un mensaje con el motivo por el cual, deseas ser contáctado."></textarea>
+                <br>
+                <br>
+
+
+                <input type="submit" value="Enviar"> <input type="reset">
+            </fieldset>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>

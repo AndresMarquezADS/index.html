@@ -37,13 +37,14 @@
 
         /* CENTRAR FORMULARIO */
 .container {
-    max-width: 500px;
+    max-width: 800px;
     margin: 0 auto; /* centra horizontalmente */
     padding: 20px;
-    background-color: #f9f9f9; /* opcional */
+    background-color: #dee5eb; /* opcional */
     border-radius: 10px;        /* opcional */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* opcional */
+    box-shadow: 0 0 10px #b121211a; /* opcional */
 }
+
 
 /* Dar estilo al formulario para mejor presentación */
 form label {
@@ -90,21 +91,22 @@ form input[type="reset"] {
 
     </header>
 
-     <hr>
+     
     <nav>
         
   <h2 style="text-align: center;">Índice</h2>
-  <ul style="list-style: none; display: flex; justify-content: center; padding: 0; gap: 40px;">
+  <ul style="list-style: none; display: flex; justify-content: center; padding: 0; gap: 20px;">
     <li><a href="#acerca">Acerca de mí</a></li>
     <li><a href="#experiencia">Experiencia Laboral</a></li>
     <li><a href="#estudios">Estudios</a></li>
     <li><a href="#referencias">Referencias Personales</a></li>
+    <li><a href="#referencias">Información de Contácto</a></li>
   </ul>
   
-</nav>
+    </nav>
 
 
-      <hr>
+      <br>
     <section id="acerca">
         <h2>Acerca de Mi</h2>
         <p>Mi perfil laboral se ubica en el ámbito comercial con liderazgo en equipos de ventas y manejo de
@@ -113,7 +115,7 @@ form input[type="reset"] {
         <p>Mis hobbies favoritos son: jugar Airsoft y transmisión de video juegos.</p>
     </section>
 
-    <hr>
+    <br>
     <section id="experiencia">
         <h2>Experiencia Laboral</h2>
         <img src="Imagenes/Super.png"
@@ -144,10 +146,14 @@ form input[type="reset"] {
         </ul>
     </section>
 
-     <hr>
+     <br>
     <section id="estudios">
         <h2>Estudios</h2>
-        <table border="5" cellspacing="5" cellpadding="5">
+        <div class="bloque-tabla">
+        <table class="tabla_estudios" border="5"
+        cellspacing="5" 
+        cellpadding="5"
+        >
             <tr>
                 <th>Institución</th>
                 <th>Curso</th>
@@ -170,12 +176,19 @@ form input[type="reset"] {
             </tr>
 
  </table>
+ </div>
     </section>
 <br>
-    <hr>
+    
     <section id="referencias">
         <h2>Referencias Personales</h2>
-        <table border="5" cellspacing="5" cellpadding="5">
+        <div class="bloque-tabla">
+        <table class="referencias" 
+        border="5" 
+        cellspacing="5" 
+        cellpadding="5">
+        
+
             <tr>
                 <th>Nombre</th>
                 <th>Cargo</th>
@@ -193,15 +206,16 @@ form input[type="reset"] {
             </tr>
             <tr>
                 <td>Marco Carlo Ordoñez</td>
-                <td>Licenciado en deporte</td>
+                <td>Profesional en deporte</td>
                 <td>3166191471</td>
             </tr>
 
   </table>
+  </div>
 
     </section>
     <br>
-    <hr>
+    
 
     <div class="container">
         <h2>Información de contácto</h2>
@@ -243,6 +257,9 @@ form input[type="reset"] {
     </div>
 
 
+<footer>
+  <p>&copy; 2025 Andrés  Márquez  - Todos los derechos reservados.</p>
+</footer>
 
 </body>
 

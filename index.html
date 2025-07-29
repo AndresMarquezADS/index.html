@@ -40,7 +40,7 @@
     max-width: 800px;
     margin: 0 auto; /* centra horizontalmente */
     padding: 20px;
-    background-color: #dee5eb; /* opcional */
+    background-color: #1f73bd; /* opcional */
     border-radius: 10px;        /* opcional */
     box-shadow: 0 0 10px #b121211a; /* opcional */
 }
@@ -76,8 +76,10 @@ form input[type="reset"] {
 
 
 <body>
+    
     <header>
-        
+      <section id="hoja de vida">
+        <div> 
         <br>
         <img src="Imagenes/foto.png" class="foto-perfil" alt="Foto de Perfil">
     
@@ -87,15 +89,16 @@ form input[type="reset"] {
         
 
         
-    
 
+        </div> 
+      </section>
     </header>
 
-     
+    <section id="indice">
     <nav>
 
 
-        
+       <div>
   <h2 style="text-align: center;">Índice</h2>
   <ul style="list-style: none; display: flex; justify-content: center; padding: 0; gap: 20px;">
     <li><a href="#acerca">Acerca de mí</a></li>
@@ -104,9 +107,11 @@ form input[type="reset"] {
     <li><a href="#referencias">Referencias Personales</a></li>
     <li><a href="#contacto">Información de Contacto</a></li>
   </ul>
+       </div>   
   
     </nav>
-
+    </section> 
+   
     <main>   <!-- Madre de los contenedores / contenido principal -->
 
 
@@ -245,7 +250,7 @@ form input[type="reset"] {
     
     <section id="contacto">
 
-    <div class="container">
+    <div>
         <h2>Información de contacto</h2>
 
         <form action="#" method="post">
@@ -291,6 +296,8 @@ form input[type="reset"] {
 <footer>
   <p>&copy; 2025 Andrés  Márquez  - Todos los derechos reservados.</p>
 </footer>
+
+
 
 </body>
 
